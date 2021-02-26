@@ -1,0 +1,222 @@
+	#body {
+ 		background-color: #5cdb95;
+ 		width: 1350px;
+ 	}
+
+ 	body{
+	overflow-y: scroll;
+	}
+
+	body::-webkit-scrollbar{
+	display: none;
+	}
+
+ 	#navbar ul {
+		list-style-type: none;
+		overflow: hidden;
+		padding: 0px;
+		background-color: #5cdb95;
+	}
+
+	#navbar li a {
+		padding-right: 10px;
+		text-decoration: none;	
+		color: #05368b;
+	}
+
+	#navbar li {
+		display: inline;
+		float: left; 
+		font-family: "Kayak-sans", "Jersey M54", "NBA Bulls", Sans-serif;
+	}
+
+	#one {
+		position: absolute;
+		z-index: 3;
+		left: 1100px;
+		top: 100px;
+		width: 250px;
+		height: 350px;
+	}
+
+	#two {
+		position: absolute;
+		z-index: 2;
+		width: 400px;
+		height: 500px;
+		top: 200px;
+		left: 800px;
+	}
+
+	#three {
+		position: absolute;
+		z-index: 1;
+		left: 550px;
+		top: 120px;
+	}
+
+	p {
+		font-family: "Jersey M54", Sans-serif;
+		word-spacing: 5px;
+		color: #05386b;
+	}
+
+	#navbar1 a.love:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.love:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.love:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.love:active{
+		color: #FF2768;
+	}
+
+	#navbar1 a.story:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.story:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.story:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.story:active{
+		color: #FF2768;
+	}
+
+	#navbar1 a.play:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.play:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.play:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.play:active{
+		color: #FF2768;
+	}
+
+	#navbar1 a.ga:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.ga:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.ga:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.ga:active{
+		color: #FF2768;
+	}
+
+	#navbar1 a.kick:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.kick:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.kick:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.kick:active{
+		color: #FF2768;
+	}
+
+	#navbar1 a.cons:link{
+		text-decoration: none;
+		color: #05368b;
+	}
+
+	#navbar1 a.cons:visited{
+		color: #C1D9B7;
+	}
+
+	#navbar1 a.cons:hover{
+		color: #E5A298;
+	}
+
+	#navbar1 a.cons:active{
+		color: #FF2768;
+	}
+	video {
+		position: relative;
+		left: 450px;
+		bottom: 30px;
+	}
+	#socmed a {
+		float: right;
+		color: #05386b;
+		margin: 30px 5px 20px 5px;
+		display: block;
+		justify-content: space-between;
+		position: relative;
+		bottom: 80px;
+		right: 5px;
+		left: 5px;
+	}
+	
+	.sprite {
+		display: block;
+		margin: 20px 5px 20px 5px;
+		clear: left;
+		float: right;
+		background: url('../images/spritesnocontext.png') no-repeat -349px -401px;
+		width: 38px;
+		height: 37px;
+	}
+
+	.sprite:hover {
+		background: url('../images/spritesnocontext.png') no-repeat -349px -142px;
+	}
+
+	.sprite1 {
+		display: block;
+		margin: 20px 5px 20px 5px;
+		clear: left;
+		float: right;
+		background: url('../images/spritesnocontext.png') no-repeat -864px -403px;
+		width: 38px;
+		height: 33px;
+	}
+	
+	.sprite1:hover {
+		background: url('../images/spritesnocontext.png') no-repeat -864px -144px;
+	}
+
+	.sprite2 {
+		display: block;
+		margin: 20px 5px 50px 2px;
+		clear: left;
+		float: right;
+		background: url('../images/spritesnocontext.png') no-repeat -992px -401px;
+		width: 38px;
+		height: 37px;
+	}
+
+	.sprite2:hover {
+		background: url('../images/spritesnocontext.png') no-repeat -992px -142px;
+	}	
